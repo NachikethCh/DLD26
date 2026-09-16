@@ -18,29 +18,38 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+module P1_gate_tb;
 
-
-module CS25B011_Session6_tb; // Your chosen name goes here
-
-    // 1. Declare stimulus signals
-    reg A, B, C, D;
-    wire t1, t2, t3, t4, final_out;
-
-    // 2. Instantiate your design under test (UUT)
-    CS25B011_Session6 uut (
-        .A(A), .B(B), .C(C), .D(D),
-        .t1(t1), .t2(t2), .t3(t3), .t4(t4),
-        .final_out(final_out) // Using the corrected name from earlier
+    reg A, B, C, D, E;
+    wire F;
+    P1_gate uut (
+        .A(A),
+        .B(B),
+        .C(C),
+        .D(D),
+        .E(E),
+        .F(F)
     );
-
-    // 3. Test values
     initial begin
-        A = 1; B = 0; C = 0; D = 0; #10;
-        A = 0; B = 0; C = 0; D = 1; #10; // Test t1
-        A = 1; B = 1; C = 1; D = 0; #10; // Test t2
+        $monitor("A=%b B=%b C=%b D=%b E=%b | F=%b",
+                  A, B, C, D, E, F);
+        A=0;B=0;C=0;D=0;E=0;
+        #10;
+        A=0;B=0;C=0;D=1;E=0;
+        #10;
+        A=0;B=0;C=1;D=1;E=1;
+        #10;
+        A=1;B=1;C=1;D=1;E=0;
+        #10;
+        A=1;B=1;C=1;D=1;E=1;
+        #10;
+        A=1;B=0;C=1;D=1E=1;
+        #10;
+        A=1;B=1;C=1;D=1;E=0;
+        #10;
+        A=0;B=1;C=1;D=1;E=0;
+        #10;
         $finish;
     end
-
 endmodule
-
 
