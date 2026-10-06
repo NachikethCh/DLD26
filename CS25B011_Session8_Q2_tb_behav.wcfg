@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CS25B011_Session8_Q2_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CS25B011_Session8_Q2_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="601.501 ns"></ZoomEndTime>
+      <Cursor1Time time="80.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q2_tb/D">
+      <obj_property name="ElementShortName">D</obj_property>
+      <obj_property name="ObjectShortName">D</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q2_tb/S1">
+      <obj_property name="ElementShortName">S1</obj_property>
+      <obj_property name="ObjectShortName">S1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q2_tb/S0">
+      <obj_property name="ElementShortName">S0</obj_property>
+      <obj_property name="ObjectShortName">S0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q2_tb/Y0">
+      <obj_property name="ElementShortName">Y0</obj_property>
+      <obj_property name="ObjectShortName">Y0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q2_tb/Y1">
+      <obj_property name="ElementShortName">Y1</obj_property>
+      <obj_property name="ObjectShortName">Y1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q2_tb/Y2">
+      <obj_property name="ElementShortName">Y2</obj_property>
+      <obj_property name="ObjectShortName">Y2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q2_tb/Y3">
+      <obj_property name="ElementShortName">Y3</obj_property>
+      <obj_property name="ObjectShortName">Y3</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CS25B011_Session8_Q2_tb/expected">
+      <obj_property name="ElementShortName">expected[3:0]</obj_property>
+      <obj_property name="ObjectShortName">expected[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CS25B011_Session8_Q2_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
