@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CS25B011_Session8_Q3_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CS25B011_Session8_Q3_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="438.834 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,645.835 ns"></ZoomEndTime>
+      <Cursor1Time time="640.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/E">
+      <obj_property name="ElementShortName">E</obj_property>
+      <obj_property name="ObjectShortName">E</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/W">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P1_BUSY">
+      <obj_property name="ElementShortName">P1_BUSY</obj_property>
+      <obj_property name="ObjectShortName">P1_BUSY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P2_BUSY">
+      <obj_property name="ElementShortName">P2_BUSY</obj_property>
+      <obj_property name="ObjectShortName">P2_BUSY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P3_BUSY">
+      <obj_property name="ElementShortName">P3_BUSY</obj_property>
+      <obj_property name="ObjectShortName">P3_BUSY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/PRI">
+      <obj_property name="ElementShortName">PRI</obj_property>
+      <obj_property name="ObjectShortName">PRI</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/E_GREEN">
+      <obj_property name="ElementShortName">E_GREEN</obj_property>
+      <obj_property name="ObjectShortName">E_GREEN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/E_RED">
+      <obj_property name="ElementShortName">E_RED</obj_property>
+      <obj_property name="ObjectShortName">E_RED</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/W_GREEN">
+      <obj_property name="ElementShortName">W_GREEN</obj_property>
+      <obj_property name="ObjectShortName">W_GREEN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/W_RED">
+      <obj_property name="ElementShortName">W_RED</obj_property>
+      <obj_property name="ObjectShortName">W_RED</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/EP1">
+      <obj_property name="ElementShortName">EP1</obj_property>
+      <obj_property name="ObjectShortName">EP1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/EP2">
+      <obj_property name="ElementShortName">EP2</obj_property>
+      <obj_property name="ObjectShortName">EP2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/EP3">
+      <obj_property name="ElementShortName">EP3</obj_property>
+      <obj_property name="ObjectShortName">EP3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/WP1">
+      <obj_property name="ElementShortName">WP1</obj_property>
+      <obj_property name="ObjectShortName">WP1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/WP2">
+      <obj_property name="ElementShortName">WP2</obj_property>
+      <obj_property name="ObjectShortName">WP2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/WP3">
+      <obj_property name="ElementShortName">WP3</obj_property>
+      <obj_property name="ObjectShortName">WP3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P1_FREE">
+      <obj_property name="ElementShortName">P1_FREE</obj_property>
+      <obj_property name="ObjectShortName">P1_FREE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P1_BUSY_LED">
+      <obj_property name="ElementShortName">P1_BUSY_LED</obj_property>
+      <obj_property name="ObjectShortName">P1_BUSY_LED</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P2_FREE">
+      <obj_property name="ElementShortName">P2_FREE</obj_property>
+      <obj_property name="ObjectShortName">P2_FREE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P2_BUSY_LED">
+      <obj_property name="ElementShortName">P2_BUSY_LED</obj_property>
+      <obj_property name="ObjectShortName">P2_BUSY_LED</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P3_FREE">
+      <obj_property name="ElementShortName">P3_FREE</obj_property>
+      <obj_property name="ObjectShortName">P3_FREE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/P3_BUSY_LED">
+      <obj_property name="ElementShortName">P3_BUSY_LED</obj_property>
+      <obj_property name="ObjectShortName">P3_BUSY_LED</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CS25B011_Session8_Q3_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CS25B011_Session8_Q3_tb/errors">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CS25B011_Session8_Q3_tb/free_count">
+      <obj_property name="ElementShortName">free_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">free_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/eg">
+      <obj_property name="ElementShortName">eg</obj_property>
+      <obj_property name="ObjectShortName">eg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CS25B011_Session8_Q3_tb/wg">
+      <obj_property name="ElementShortName">wg</obj_property>
+      <obj_property name="ObjectShortName">wg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CS25B011_Session8_Q3_tb/eexp">
+      <obj_property name="ElementShortName">eexp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">eexp[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CS25B011_Session8_Q3_tb/wexp">
+      <obj_property name="ElementShortName">wexp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wexp[2:0]</obj_property>
+   </wvobject>
+</wave_config>
